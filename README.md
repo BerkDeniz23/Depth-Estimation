@@ -6,6 +6,7 @@ Zoe Depth Estimation is a model that predicts depth from a single image, turning
 
 ## Usage/Examples
 
+### CLI Usage
 ```bash
 usage: cli.py [-h] input_image output_image
 
@@ -17,6 +18,11 @@ positional arguments:
 
 options:
   -h, --help    show this help message and exit
+```
+
+### API Usage
+```
+http://127.0.0.1:8000/predict
 ```
 
   
