@@ -36,23 +36,22 @@ Install depth estimation project with pip
     
 ## Environment Variables
 
-Bu projeyi çalıştırmak için aşağıdaki ortam değişkenlerini .env dosyanıza eklemeniz gerekecek
+To run this project, you will need to add the following environment variables to your .env file
 
-`API_KEY`
-
-`ANOTHER_API_KEY`
+`IMG_API_KEY`
 
   
-## Dağıtım
+## Deployment
 
-Bu projeyi dağıtmak için çalıştırın
+To deploy this project run
 
 ```bash
-  npm run deploy
+  docker build -t depth_estimation.
+  docker run -d -p 8041:8041 depth_estimation
 ```
 
   
-## Lisans
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
